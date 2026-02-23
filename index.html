@@ -224,11 +224,27 @@
       <h2>Projects</h2>
       <div class="projects-grid">
         <div class="project-box">
-          <h3>ASU Scholarship Finder Chatbot</h3>
-          <p>Engineered an AI-powered chatbot using LangChain + FAISS to help 75,000+ ASU students discover person
-alized scholarships through semantic search and data scraping. Presented at AI Society Showcase; currently collaborating with Sparky AI team to integrate into the My ASU
- dashboard by December 2025, enabling broader campus access.</p>
-          <p><strong>Technologies:</strong> Python, LangChain, FAISS, Streamlit, Web Scraping</p>
+          <h3>JobMeld - Personal Project</h3>
+          <p>Built a distributed job automation pipeline using Python, Kafka, Redis, and PostgreSQL; reduced manual application time by 60%,
+implemented Redis-based deduplication, and stored 100+ job listings with full application tracking. Deployed worker services on Kubernetes with HPA (2–10 replicas), added Prometheus metrics and Grafana dashboards for queue
+depth and application success rate, and used Terraform for IaC to support scalable, observable job processing.</p>
+        </div>
+        <div class="project-box">
+          <h3>Kanbanzy</h3>
+          <p>Architected and built a real-time collaborative task board using Next.js 14, TypeScript, Prisma, PostgreSQL, WebSockets, and
+Redis pub/sub, delivering 25+ REST and GraphQL API endpoints, Gmail OAuth integration, and AI-powered task extraction from
+emails. Implemented CI/CD with GitHub Actions, containerization (Docker), Kubernetes (Helm + Minikube), and multi-cloud deployment
+(GCP Cloud Run, AWS ECS), with unit, integration, and E2E tests (Jest, Playwright) to ensure reliability.</p>
+        </div>
+        <div class="project-box">
+          <h3>DocBlitz</h3>
+          <p>Developed an AI document Q&A app using RAG, 768-dim embeddings, and pgvector for semantic search across multiple documents (10MBfile, 5 chunksquery) with source citations. Architected RAG system with FastAPI, Next.js, PostgreSQL, pgvector, 3 AI providers, JWT auth, 1000-token chunking (200
+overlap), and Docker Compose for 3-service deployment</p>
+        </div>
+        </div>
+        <div class="project-box">
+          <h3>Code Ethics Auditor</h3>
+          <p>Built a Python-based tool auditing 500+ lines of code per run for ethical, compliance, and security risks. Automated PDF reporting, reducing manual review time by 70%</p>
         </div>
         <div class="project-box">
           <h3>Health Clinic Portal</h3>
@@ -243,6 +259,7 @@ alized scholarships through semantic search and data scraping. Presented at AI S
         <div class="project-box">
           <h3>Screentime Sharing App</h3>
           <p>Designed a TypeScript-based accountability tool that tracks excessive app use and alerts selected contacts, improving self-regulation for student users. Showcased at ASU Innovation Day; implemented auto-sharing logic and real-time notification system that boosted engagement by 40%.</p>
+          </div>
           <p><strong>Technologies:</strong> TypeScript, Firebase, React, CSS</p>
         </div>
         <div class="project-box">
@@ -256,12 +273,19 @@ alized scholarships through semantic search and data scraping. Presented at AI S
     <section id="experience">
       <h2>Work Experience</h2>
       <div class="experience-box">
-        <h3>Machine Learning Research Assistant (Aug 2024 – Dec 2024)</h3>
-        <p>Improved model classification accuracy by 18% by training and fine-tuning ResNet architectures on the ImageNet dataset, enhancing predictive performance for power systems data.Automated data preprocessing and model evaluation pipelines using Python, reducing experiment time by 35% and enabling rapid iteration across 50+ deep learning experiments.Increased development efficiency by 30% by streamlining UX flows, resolving 90% of QA bugs through Git.</p>
+        <h3>Software Engineer Intern(September 2025 - Present</h3>
+        <p> Architected and implemented backend integrations for Stripe payments, Google Analytics, AdSense, and Mailchimp, enabling
+subscription billing, analytics, and newsletter signup for the OpenMap platform serving 5K+ monthly users. Built secure REST APIs and data endpoints with authentication, webhook handling, and cookie consent for the OpenMap platform,
+supporting AI-driven dashboards and data visualization for 5K+ monthly users.</p>
+        </div>
       <div class="experience-box">
-        <h3>Full Stack Development Intern – Nexus Info (Jul 2024 – Sep 2024)</h3>
+        <h3>Full Stack Development Intern – Nexus Info (June 2025 – August 2025)</h3>
         <p>Built and deployed 3 full-stack web applications using Node.js and JavaScript, improving user interaction flow and page responsiveness by over 40%. Resolved  90% of reported bugs through rigorous testing and Git-based version control, boosting overall application reliability and team development efficiency. </p>
       </div>
+      <div class="experience-box">
+        <h3>Machine Learning Research Assistant (August 2024 – December 2024)</h3>
+        <p>Improved model classification accuracy by 18% by training and fine-tuning ResNet architectures on the ImageNet dataset, enhancing predictive performance for power systems data.Automated data preprocessing and model evaluation pipelines using Python, reducing experiment time by 35% and enabling rapid iteration across 50+ deep learning experiments.Increased development efficiency by 30% by streamlining UX flows, resolving 90% of QA bugs through Git.</p>
+        </div>
       <div class="experience-box">
         <h3>Academic Tutor – iVolunteer (Jan 2024 – May 2024)</h3>
         <p>Taught front-end web development to high school students. Created tutorials, held mentoring sessions, and fostered interest in tech among underserved youth.</p>
@@ -286,6 +310,8 @@ alized scholarships through semantic search and data scraping. Presented at AI S
         <li>NAMU Scholarship – $10,000 annually</li>
         <li>Dean’s List – Spring 2023, Fall 2023, Spring 2024, Fall 2024</li>
         <li>AI Society Badge – Recognized for building a university-scale AI chatbot</li>
+        <li>Admission Services, ASU - Reduced data entry time by 98% by building an automation python script that synced 1,367
+partners from Google Sheets to Airtable in 5 hours instead of 2 weeks with 5 people. (February 2026)</li>
       </ul>
     </section>
 
